@@ -29,6 +29,7 @@
     "npm": "4.6.1"
   },
   "dependencies": {
+    "babel": "^6.23.0",
     "classnames": "^2.2.5",
     "compression": "^1.6.2",
     "express": "^4.15.3",
