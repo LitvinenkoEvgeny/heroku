@@ -1,0 +1,62 @@
+{
+  "name": "movie-finder-app-with-react",
+  "version": "1.0.0",
+  "description": "final project EPAM Rolling Scopes 2017",
+  "main": "index.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:dev": "webpack-dev-server --hot",
+    "start:prod": "npm run build && node server.js",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vramaniuk/movie-finder-app-with-react.git"
+  },
+  "keywords": [
+    "movie",
+    "TMDB API"
+  ],
+  "author": "vramaniuk <astyanax@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vramaniuk/movie-finder-app-with-react/issues"
+  },
+  "homepage": "https://github.com/vramaniuk/movie-finder-app-with-react#readme",
+  "engines": {
+    "node": "7.10.0",
+    "npm": "4.6.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "compression": "^1.6.2",
+    "express": "^4.15.3",
+    "if-env": "^1.0.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "webpack": "^1.15.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "enzyme": "^2.8.2",
+    "html-webpack-plugin": "^2.28.0",
+    "install": "^0.10.1",
+    "jest": "^20.0.4",
+    "npm": "^4.6.1",
+    "react-addons-test-utils": "^15.5.1",
+    "react-test-renderer": "^15.5.4",
+    "redux-logger": "^3.0.6",
+    "style-loader": "^0.18.1",
+    "webpack-dev-server": "^1.16.5"
+  }
+}
